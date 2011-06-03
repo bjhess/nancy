@@ -1,11 +1,5 @@
 require 'sinatra'
 
-module Main
-  class App < Sinatra::Base
-
-    get '/' do
-      erb :index
-    end
-    
-  end
+get '/' do
+  erb :index
 end
