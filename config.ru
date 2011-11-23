@@ -5,5 +5,5 @@ Bundler.require
 
 set :run, false
 
-require 'main'
+require './main'
 run Sinatra::Application
